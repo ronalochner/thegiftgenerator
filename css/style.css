@@ -1,0 +1,113 @@
+html, body {
+    display: block;
+    margin:0;
+    padding: 0;
+    font-family: Verdana, arial, sans-serif;
+    
+}
+
+header {
+    background: #333;
+    color:#fff;
+    padding:15px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    z-index: -2;
+    background-size: cover;
+    background-repeat: no-repeat center;
+}
+
+footer {
+    width: 100%;
+    border-radius: 3px;
+    padding:15px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+}
+
+section {
+    margin-left:15%;
+    margin-right: 15%;
+}
+
+/* Order Form*/
+
+.results, .order-form {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding:15px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+
+}
+.order-form label {
+    display: block;
+    padding:5px 0;
+    font-size: 15pt;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.order-form select {
+    display: block;
+    padding:5px 10px 5px 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 12pt;
+    min-width:20%;
+}
+.order-form select:hover {
+    border-color: #080808;
+    background: #efefef;
+}
+
+a.btn {
+    display: inline-block;
+    padding:8px 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#fff;
+    
+}
+a.btn.btn-submit {
+    background: #5290b7;
+    border:1px solid #333;
+}
+
+a.btn.btn-submit:hover {
+    background: #5ed097;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+.hidden1 {
+    display: none;
+    opacity: 0;
+}
+
+.gift-pic {
+    background-color: white;
+    max-width: 33.33%;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
